@@ -1,7 +1,7 @@
 import React from 'react';
-import './css/HeroHeader.css';
+import './css/Home.css';
 
-function HeroHeader() {
+function Home() {
     return (
         <div className="hero-image">
             <div className="hero-text">
@@ -12,4 +12,4 @@ function HeroHeader() {
     )
 }
 
-export default HeroHeader;
+export default Home;

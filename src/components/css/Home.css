@@ -1,9 +1,5 @@
-.HeroHeader {
-    height: 100%;
-}
-
 .hero-image {
-    height: 110vh;
+    height: 100vh;
     width: 100%;
     overflow: hidden;
     background-position: center;
@@ -21,3 +17,9 @@
     transform: translate(-50%, -50%);
     color: white;
 }
+
+/* .hero-name {
+    font: 100px;
+    color: rgb(255, 255, 255);
+    padding-left: 0px;
+} */

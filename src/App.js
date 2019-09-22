@@ -1,20 +1,38 @@
 import React from 'react';
 import './App.css';
-import HeroHeader from './components/HeroHeader';
-import NavigationBar from './components/NavigationBar'
+import PrimaryNavigationBar from './components/PrimaryNavigation'
+import PrimaryContent from './components/PrimaryContent'
 
-function App() {
-  return (
-    <div className="App">
-      <head>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      </head> 
-      <header className="App-header">
-        <NavigationBar></NavigationBar>
-      </header>
-      <HeroHeader></HeroHeader>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      primaryNavigationBarSelection: 'hobbies-interests',
+    }
+    this.handlePrimaryNavigationBarClick = this.handlePrimaryNavigationBarClick.bind(this)
+  }
+
+  handlePrimaryNavigationBarClick(primaryNavigationBarSelectionId) {
+    this.setState({
+      primaryNavigationBarSelection: primaryNavigationBarSelectionId
+    });
+  }
+
+  render () {
+    return (
+      <div className="App">
+        <header className="App-header">
+        </header>
+        <PrimaryNavigationBar
+          primaryNavigationBarSelection = {this.state.primaryNavigationBarSelection}
+          handlePrimaryNavigationBarClick = {this.handlePrimaryNavigationBarClick}
+        />
+        <PrimaryContent 
+          primaryNavigationBarSelection = {this.state.primaryNavigationBarSelection}
+        />
+      </div>
+    );
+  }
 }
 
 export default App;
