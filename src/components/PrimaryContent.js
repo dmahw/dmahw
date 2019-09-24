@@ -2,89 +2,41 @@ import React from 'react';
 import Home from './Home';
 import AboutMe from './AboutMe';
 import Education from './Education';
-import HobbiesInterests from './HobbiesInterests';
 import WorkExperience from './WorkExperience';
+import HobbiesInterests from './HobbiesInterests';
+
 import Projects from './Projects';
 import Contact from './Contact';
 
 class PrimaryContent extends React.Component {
-  renderHome() {
-    return (
-      <Home />
-    )
-  }
-
-  renderAboutMe() {
-    return (
-      <AboutMe />
-    )
-  }
-
-  renderEducation() {
-    return (
-      <Education />
-    )
-  }
-
-  renderHobbiesInterests() {
-    return (
-      <HobbiesInterests />
-    )
-  }
-
-  renderWorkExperience() {
-    return (
-      <WorkExperience />
-    )
-  }
-
-  renderProjects() {
-    return (
-      <Projects />
-    )
-  }
-
-  renderContact() {
-    return (
-      <Contact />
-    )
+  constructor(props) {
+    super(props);
   }
 
   render () {
-    switch (this.props.primaryNavigationBarSelection) {
-      case 'home':
-        return (
-          this.renderHome()
-        )
-      case 'about-me':
-        return (
-          this.renderAboutMe()
-        )
-      case 'education':
-        return (
-          this.renderEducation()
-        )
-      case 'hobbies-interests':
-        return (
-          this.renderHobbiesInterests()
-        )
-      case 'work-experience':
-        return (
-          this.renderWorkExperience()
-        )
-      case 'projects':
-        return (
-          this.renderProjects()
-        )
-      case 'contact':
-        return (
-          this.renderContact()
-        )
-      default:
-        return (
-          this.renderHome()
-        )
-    }
+    return (
+      <div>
+        <Home 
+          reference={this.props.references.refHome}
+        />
+        <AboutMe
+          reference={this.props.references.refAboutMe}
+        />
+        <Education
+          reference={this.props.references.refEducation}
+        />
+        <WorkExperience
+          reference={this.props.references.refWorkExperience}
+        />
+        <HobbiesInterests 
+          reference={this.props.references.refHobbiesInterests}
+        />
+        {/* <Projects /> */}
+        <Contact
+          reference={this.props.references.refContact}
+        />
+      </div>
+    ) 
   }
 }
 
