@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dmahw.github.io/static/css/main.f4633da5.chunk.css",
+    "main.js": "/dmahw.github.io/static/js/main.9eb7e4ae.chunk.js",
+    "main.js.map": "/dmahw.github.io/static/js/main.9eb7e4ae.chunk.js.map",
+    "runtime~main.js": "/dmahw.github.io/static/js/runtime~main.602dc1c0.js",
+    "runtime~main.js.map": "/dmahw.github.io/static/js/runtime~main.602dc1c0.js.map",
+    "static/js/2.c794f2df.chunk.js": "/dmahw.github.io/static/js/2.c794f2df.chunk.js",
+    "static/js/2.c794f2df.chunk.js.map": "/dmahw.github.io/static/js/2.c794f2df.chunk.js.map",
+    "index.html": "/dmahw.github.io/index.html",
+    "precache-manifest.1184e1d6be6785b046302188d35da616.js": "/dmahw.github.io/precache-manifest.1184e1d6be6785b046302188d35da616.js",
+    "service-worker.js": "/dmahw.github.io/service-worker.js",
+    "static/css/main.f4633da5.chunk.css.map": "/dmahw.github.io/static/css/main.f4633da5.chunk.css.map",
+    "static/media/HobbiesInterests.css": "/dmahw.github.io/static/media/volleyball.ebb190ca.jpg",
+    "static/media/WorkExperience.css": "/dmahw.github.io/static/media/wood.54fc1c39.jpg",
+    "static/media/Education.css": "/dmahw.github.io/static/media/uvicEcsBuilding.e5059d6d.jpeg",
+    "static/media/Contact.css": "/dmahw.github.io/static/media/githubLogo.6b54dab0.png",
+    "static/media/profilePhoto.PNG": "/dmahw.github.io/static/media/profilePhoto.384a7c08.PNG",
+    "static/media/profilePhoto2.PNG": "/dmahw.github.io/static/media/profilePhoto2.15d0f054.PNG",
+    "static/media/Home.css": "/dmahw.github.io/static/media/teaBackground2.d613b566.jpg"
+  }
+}
