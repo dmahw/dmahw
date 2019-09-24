@@ -50,7 +50,7 @@ class App extends React.Component {
           <br></br>
           React JS
           <br></br>
-          Hosted by Amazon Web Services
+          Hosted by GitHub
         </footer>
       </div>
     );
