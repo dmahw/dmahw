@@ -31,7 +31,7 @@ class Home extends React.Component {
                             <img className="hero-photo-small" src={profilePhoto} alt="Profile Photo"></img>
                             <div className="hero-text-small">
                                 <h1 ref={this.props.reference} className="hero-name-small">David Mah</h1>
-                                <p className="hero-subtitle-small">Software Developer | Engineer</p>
+                                <p className="hero-subtitle-small">Software Developer<br />Engineer</p>
                             </div>
                         </div>
                     </div> 

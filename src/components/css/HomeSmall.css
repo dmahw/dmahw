@@ -1,44 +1,46 @@
 .hero-image-small {
-    height: 75vh;
+    height: 65vh;
     width: 100%;
     overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./../../images/teaBackground2.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../../images/teaBackground2.jpg');
 }
 
 .hero-self-small {
     text-align: center;
     position: relative;
     color: white;
-    margin: 25vh 0 0 0;
+    margin: 18vh 0 0 0;
 }
 
 .hero-photo-small {
-    max-height: 180px;
-    max-width: 180px;
+    max-height: 124px;
+    max-width: 124px;
     overflow: hidden;
     position: relative;
     border-radius: 50%;
 }
 
 .hero-text-small {
+    width: 260px;
     text-align: center;
     position: relative;
     color: white;
-    margin: 40px;
+    margin: 35px auto 35px auto;
 }
 
 .hero-name-small {
     font-size: 50px;
-    padding: 0;
+    padding: 0px;
     margin: 0;
+    border-bottom: 2px solid white;
 }
 
 .hero-subtitle-small {
     font-size: 25px;
-    padding: 0;
+    padding: 10px;
     margin: 0;
 }
