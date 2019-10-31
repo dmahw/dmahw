@@ -1,0 +1,32 @@
+.about-me-container-small {
+  background-color: rgb(118, 94, 70);
+  padding: 0;
+}
+
+.about-me-header-small {
+  font-size: 30px;
+  padding: 40px;
+  margin: 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.about-me-text-small {
+  font-size: 20px;
+  padding: 40px;
+  margin: 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.about-me-photo-container-small {
+  width: 100%;
+  text-align: center;
+}
+
+.about-me-photo-small {
+  width: 270px;
+  height: 270px;
+  position: relative;
+  border-radius: 50%;
+}

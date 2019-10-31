@@ -42,7 +42,7 @@
   overflow: visible;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 400%;
   background-image: url('./../../images/corvusLogo.svg');
 }
 

@@ -3,6 +3,7 @@ import './css/PrimaryNavigation.css';
 import './css/PrimaryNavigationSmall.css';
 import MediaQuery from 'react-responsive'
 import menuLogo from './../images/menu-24px.svg'
+import closeMenuLogo from './../images/chevron_left-24px.svg'
 
 
 class PrimaryNavigationButton extends React.Component {
@@ -25,14 +26,28 @@ class PrimaryNavigationButton extends React.Component {
 
   render() {
     return (
-      <button
-        className={
-          this.props.isActive ? "primary-navigation-button-active" : "primary-navigation-button"
-        }
-        onClick={() => this.props.onClick(this.props.id, this.props.reference)}
-      >
-        {this.props.name}
-      </button>
+      <div>
+        <MediaQuery minWidth={800}>
+          <button
+            className={
+              this.props.isActive ? "primary-navigation-button-active" : "primary-navigation-button"
+            }
+            onClick={() => this.props.onClick(this.props.id, this.props.reference)}
+          >
+            {this.props.name}
+          </button>
+        </MediaQuery>
+        <MediaQuery maxWidth={800}>
+          <button
+            className={
+              this.props.isActive ? "primary-navigation-button-small-active" : "primary-navigation-small-button"
+            }
+            onClick={() => this.props.onClick(this.props.id, this.props.reference)}
+          >
+            {this.props.name}
+          </button>
+        </MediaQuery>
+      </div>
     )
   }
 }
@@ -40,7 +55,26 @@ class PrimaryNavigationButton extends React.Component {
 class PrimaryNavigationBar extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      menuOpen: false,
+    };
+    this.handleMenuClick = this.handleMenuClick.bind(this);
   }
+
+  handleMenuClick() {
+    if (!this.state.menuOpen) {
+      document.getElementsByClassName("sidebar-small")[0].style.width = "275px"
+      this.setState({   
+        menuOpen: !this.state.menuOpen
+      });
+    } else {
+      document.getElementsByClassName("sidebar-small")[0].style.width = "0px"
+      this.setState({   
+        menuOpen: !this.state.menuOpen
+      });
+    }
+  }
+
 
   render() {
     return (
@@ -101,7 +135,12 @@ class PrimaryNavigationBar extends React.Component {
 
         <MediaQuery maxWidth={800}>
           <div className="primary-nav-bar-small">
-            <button className="menu-logo"><img className="menu-logo-image" src={menuLogo} /></button>
+            { !this.state.menuOpen && 
+              <button className="menu-logo" onClick={this.handleMenuClick}><img className="menu-logo-image" src={menuLogo} /></button>
+            }
+            { this.state.menuOpen && 
+              <button className="menu-logo" onClick={this.handleMenuClick}><img className="menu-logo-image" src={closeMenuLogo} /></button>
+            }
             <div className="sidebar-small">
               <PrimaryNavigationButton
                 isActive = {this.props.primaryNavigationBarSelection === 'home'}

@@ -23,8 +23,6 @@ class Home extends React.Component {
                         </div>
                     </div> 
                 </MediaQuery>
-                
-
                 <MediaQuery maxWidth={800}>
                     <div className="hero-image-small">
                         <div className="hero-self-small">

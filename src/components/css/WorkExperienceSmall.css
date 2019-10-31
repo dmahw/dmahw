@@ -1,0 +1,199 @@
+.work-experience-container-small {
+  position: relative;
+  padding: 40px;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../../images/wood.jpg');
+}
+
+.work-experience-header-small {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+/* Corvus Energy */
+.work-experience-row-1-small {
+  padding: 40px 0;
+  margin: 0;
+}
+.work-experience-heading-container-1-small {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.work-experience-logo-1-small {
+  height: 160px;
+  width: 160px;
+  overflow: hidden;
+  margin: 20px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  /* background-image: url('./../../images/corvusLogo.svg'); */
+  background-image: url('./../../images/corvusEnergy.png');
+}
+.work-experience-workplace-1-small {
+  font-size: 30px;
+  width: 100%;
+  padding: 0px;
+  display: inline-block;
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+.work-experience-subtitle-1-small {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.work-experience-text-1-small {
+  padding: 20px 0;
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+/* GE Digital */
+.work-experience-row-2-small {
+  padding: 40px 0;
+  margin: 0;
+}
+.work-experience-heading-container-2-small {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.work-experience-logo-2-small {
+  height: 160px;
+  width: 160px;
+  overflow: hidden;
+  margin: 20px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  /* background-image: url('./../../images/geLogo.png'); */
+  background-image: url('./../../images/geDigital.jpg');
+}
+.work-experience-workplace-2-small {
+  font-size: 30px;
+  width: 100%;
+  padding: 0px;
+  display: inline-block;
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+.work-experience-subtitle-2-small {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.work-experience-text-2-small {
+  padding: 20px 0;
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+
+/* Ridge Playhouse */
+.work-experience-row-3-small {
+  padding: 40px 0;
+  margin: 0;
+}
+.work-experience-heading-container-3-small {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.work-experience-logo-3-small {
+  height: 160px;
+  width: 160px;
+  overflow: hidden;
+  margin: 20px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  /* background-image: url('./../../images/ridgeTheatrePlayhouseLogo.png'); */
+  background-image: url('./../../images/ridgeTheatrePlayhouse.png');
+}
+.work-experience-workplace-3-small {
+  font-size: 30px;
+  width: 100%;
+  padding: 0px;
+  display: inline-block;
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+.work-experience-subtitle-3-small {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.work-experience-text-3-small {
+  padding: 20px 0;
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+
+/* Beach House */
+.work-experience-row-4-small {
+  padding: 40px 0;
+  margin: 0;
+}
+.work-experience-heading-container-4-small {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.work-experience-logo-4-small {
+  height: 160px;
+  width: 160px;
+  overflow: hidden;
+  margin: 20px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  /* background-image: url('./../../images/beachhouseLogo.PNG'); */
+  background-image: url('./../../images/beachhouse.jpg');
+}
+.work-experience-workplace-4-small {
+  font-size: 30px;
+  width: 100%;
+  padding: 0px;
+  display: inline-block;
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+.work-experience-subtitle-4-small {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.work-experience-text-4-small {
+  padding: 20px 0;
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}

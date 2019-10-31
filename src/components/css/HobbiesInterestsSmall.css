@@ -1,0 +1,259 @@
+.hobbies-interests-container-small {
+  padding: 40px;
+  margin: 0;
+  height: 100%;
+  background-size: 100%;
+  background-position: center top;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../../images/birchVertical.jpg');
+}
+
+.hobbies-interests-header-small {
+  font-size: 30px;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.hobbies-interests-content-small {
+  padding: 20px 0;
+  margin: 0 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.hobbies-interests-point-1-small {
+  flex: 25%;
+  padding: 0;
+  margin: 20px;
+  text-align: center;
+}
+.hobbies-interests-text-1-small {
+  font-size: 30px;
+  text-align: center;
+  padding: 0;
+  margin: 20px;
+  color: white;
+}
+.hobbies-interests-photo-1-small {
+  padding: 0;
+  margin: 0;
+  height: 100px;
+  width: 100px;
+  overflow: visible;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 100%;
+  background-image: url('./../../images/stage18BadmintonHall.PNG');
+  border-radius: 50%;
+}
+
+.hobbies-interests-point-2-small {
+  flex: 25%;
+  padding: 0;
+  margin: 20px;
+  text-align: center;
+}
+.hobbies-interests-text-2-small {
+  font-size: 30px;
+  text-align: center;
+  padding: 0;
+  margin: 20px;
+  color: white;
+}
+.hobbies-interests-photo-2-small {
+  padding: 0;
+  margin: 0;
+  height: 100px;
+  width: 100px;
+  overflow: visible;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 100%;
+  background-image: url('./../../images/volleyball.jpg');
+  border-radius: 50%;
+}
+
+.hobbies-interests-point-3-small {
+  flex: 25%;
+  padding: 0;
+  margin: 20px;
+  text-align: center;
+}
+.hobbies-interests-text-3-small {
+  font-size: 30px;
+  text-align: center;
+  padding: 0;
+  margin: 20px;
+  color: white;
+}
+.hobbies-interests-photo-3-small {
+  padding: 0;
+  margin: 0;
+  height: 100px;
+  width: 100px;
+  overflow: visible;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 100%;
+  background-image: url('./../../images/spikeball.png');
+  border-radius: 50%;
+}
+
+.hobbies-interests-point-4-small {
+  flex: 25%;
+  padding: 0;
+  margin: 20px;
+  text-align: center;
+}
+.hobbies-interests-text-4-small {
+  font-size: 30px;
+  text-align: center;
+  padding: 0;
+  margin: 20px;
+  color: white;
+}
+.hobbies-interests-photo-4-small {
+  padding: 0;
+  margin: 0;
+  height: 100px;
+  width: 100px;
+  overflow: visible;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 100%;
+  background-image: url('./../../images/skiing.jpg');
+  border-radius: 50%;
+}
+
+.hobbies-interests-point-5-small {
+  flex: 25%;
+  padding: 0;
+  margin: 20px;
+  text-align: center;
+}
+.hobbies-interests-text-5-small {
+  font-size: 30px;
+  text-align: center;
+  padding: 0;
+  margin: 20px;
+  color: white;
+}
+.hobbies-interests-photo-5-small {
+  padding: 0;
+  margin: 0;
+  height: 100px;
+  width: 100px;
+  overflow: visible;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 100%;
+  background-image: url('./../../images/trestle.jpg');
+  border-radius: 50%;
+}
+
+.hobbies-interests-point-6-small {
+  flex: 25%;
+  padding: 0;
+  margin: 20px;
+  text-align: center;
+}
+.hobbies-interests-text-6-small {
+  font-size: 30px;
+  text-align: center;
+  padding: 0;
+  margin: 20px;
+  color: white;
+}
+.hobbies-interests-photo-6-small {
+  padding: 0;
+  margin: 0;
+  height: 100px;
+  width: 100px;
+  overflow: visible;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 100%;
+  background-image: url('./../../images/supra.PNG');
+  border-radius: 50%;
+}
+
+.hobbies-interests-point-7-small {
+  flex: 25%;
+  padding: 0;
+  margin: 20px;
+  text-align: center;
+}
+.hobbies-interests-text-7-small {
+  font-size: 30px;
+  text-align: center;
+  padding: 0;
+  margin: 20px;
+  color: white;
+}
+.hobbies-interests-photo-7-small {
+  padding: 0;
+  margin: 0;
+  height: 100px;
+  width: 100px;
+  overflow: visible;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 100%;
+  background-image: url('./../../images/grandPiano.jpg');
+  border-radius: 50%;
+}
+
+.hobbies-interests-point-8-small {
+  flex: 25%;
+  padding: 0;
+  margin: 20px;
+  text-align: center;
+}
+.hobbies-interests-text-8-small {
+  font-size: 30px;
+  text-align: center;
+  padding: 0;
+  margin: 20px;
+  color: white;
+}
+.hobbies-interests-photo-8-small {
+  padding: 0;
+  margin: 0;
+  height: 100px;
+  width: 100px;
+  overflow: visible;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 100%;
+  background-image: url('./../../images/beach.jpg');
+  border-radius: 50%;
+}
+
+.hobbies-interests-point-9-small {
+  flex: 25%;
+  padding: 0;
+  margin: 20px;
+  text-align: center;
+}
+.hobbies-interests-text-9-small {
+  font-size: 30px;
+  text-align: center;
+  padding: 0;
+  margin: 20px;
+  color: white;
+}
+.hobbies-interests-photo-9-small {
+  padding: 0;
+  margin: 0;
+  height: 100px;
+  width: 100px;
+  overflow: visible;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 100%;
+  background-image: url('./../../images/computer.jpg');
+  border-radius: 50%;
+}

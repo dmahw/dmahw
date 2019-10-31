@@ -1,0 +1,52 @@
+.contact-container-small {
+  position: relative;
+  padding: 40px;
+  margin: 0 0 0 0;
+  background-size: 100%;
+  background-position: center bottom;
+  /* background-repeat: no-repeat; */
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../../images/teaBackground.jpg'); */
+  background-color: rgb(118, 94, 70);
+
+}
+
+.contact-header-small {
+  font-size: 30px;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.contact-content-small {
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+.linked-in-logo-small {
+  padding: 0 0 0 0px;
+  margin: 10px;
+  height: 70px;
+  width: 70px;
+  border: none;
+  overflow: visible;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 100%;
+  background-image: url('./../../images/linkedInLogo.png');
+  border-radius: 50%;
+}
+
+.github-logo-small {
+  padding: 0 0 0 0px;
+  margin: 10px;
+  height: 70px;
+  width: 70px;
+  border: none;
+  overflow: visible;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 100%;
+  background-image: url('./../../images/githubLogo.png');
+  border-radius: 50%;
+}
