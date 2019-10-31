@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/dmahw/static/css/main.6392d6de.chunk.css",
-    "main.js": "/dmahw/static/js/main.32e52d8c.chunk.js",
-    "main.js.map": "/dmahw/static/js/main.32e52d8c.chunk.js.map",
+    "main.css": "/dmahw/static/css/main.2e85ad58.chunk.css",
+    "main.js": "/dmahw/static/js/main.eee6ac08.chunk.js",
+    "main.js.map": "/dmahw/static/js/main.eee6ac08.chunk.js.map",
     "runtime~main.js": "/dmahw/static/js/runtime~main.68df7c25.js",
     "runtime~main.js.map": "/dmahw/static/js/runtime~main.68df7c25.js.map",
-    "static/js/2.7282e3cd.chunk.js": "/dmahw/static/js/2.7282e3cd.chunk.js",
-    "static/js/2.7282e3cd.chunk.js.map": "/dmahw/static/js/2.7282e3cd.chunk.js.map",
+    "static/js/2.39b871be.chunk.js": "/dmahw/static/js/2.39b871be.chunk.js",
+    "static/js/2.39b871be.chunk.js.map": "/dmahw/static/js/2.39b871be.chunk.js.map",
     "index.html": "/dmahw/index.html",
-    "precache-manifest.cd7449fb0412d344a7a28443f4c4e878.js": "/dmahw/precache-manifest.cd7449fb0412d344a7a28443f4c4e878.js",
+    "precache-manifest.7d8f4c130aca82712cc089572710a496.js": "/dmahw/precache-manifest.7d8f4c130aca82712cc089572710a496.js",
     "service-worker.js": "/dmahw/service-worker.js",
-    "static/css/main.6392d6de.chunk.css.map": "/dmahw/static/css/main.6392d6de.chunk.css.map",
-    "static/media/HobbiesInterests.css": "/dmahw/static/media/volleyball.ebb190ca.jpg",
-    "static/media/WorkExperience.css": "/dmahw/static/media/wood.54fc1c39.jpg",
-    "static/media/Education.css": "/dmahw/static/media/uvicEcsBuilding.e5059d6d.jpeg",
-    "static/media/Contact.css": "/dmahw/static/media/githubLogo.6b54dab0.png",
+    "static/css/main.2e85ad58.chunk.css.map": "/dmahw/static/css/main.2e85ad58.chunk.css.map",
+    "static/media/HobbiesInterestsSmall.css": "/dmahw/static/media/volleyball.ebb190ca.jpg",
+    "static/media/WorkExperienceSmall.css": "/dmahw/static/media/wood.54fc1c39.jpg",
+    "static/media/WorkExperience.css": "/dmahw/static/media/geLogo.d2d74fd5.png",
+    "static/media/EducationSmall.css": "/dmahw/static/media/uvicEcsBuilding.e5059d6d.jpeg",
+    "static/media/chevron_left-24px.svg": "/dmahw/static/media/chevron_left-24px.c08e691f.svg",
+    "static/media/ContactSmall.css": "/dmahw/static/media/githubLogo.6b54dab0.png",
+    "static/media/menu-24px.svg": "/dmahw/static/media/menu-24px.c77528ab.svg",
     "static/media/profilePhoto.PNG": "/dmahw/static/media/profilePhoto.384a7c08.PNG",
     "static/media/profilePhoto2.PNG": "/dmahw/static/media/profilePhoto2.15d0f054.PNG",
-    "static/media/Home.css": "/dmahw/static/media/teaBackground2.d613b566.jpg"
+    "static/media/HomeSmall.css": "/dmahw/static/media/teaBackground2.d613b566.jpg"
   }
 }
