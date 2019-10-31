@@ -12,7 +12,7 @@ class Contact extends React.Component {
   render () {
     return (
       <div>
-        <MediaQuery minWidth={800}>
+        <MediaQuery minWidth={1000}>
           <div ref={this.props.reference} className="contact-container">
             <h1 className="contact-header">Contact</h1>
             <div className="contact-content">
@@ -21,7 +21,7 @@ class Contact extends React.Component {
             </div>
           </div>
         </MediaQuery>
-        <MediaQuery maxWidth={800}>
+        <MediaQuery maxWidth={1000}>
           <div ref={this.props.reference} className="contact-container-small">
             <h1 className="contact-header-small">Contact</h1>
             <div className="contact-content-small">

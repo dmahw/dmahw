@@ -11,7 +11,7 @@ class Education extends React.Component {
   render () {
     return (
       <div>
-        <MediaQuery minWidth={800}>
+        <MediaQuery minWidth={1000}>
           <div ref={this.props.reference} className="education-container">
             <div className="education-row">
               <div className="education-1">
@@ -47,7 +47,7 @@ class Education extends React.Component {
           </div>
         </MediaQuery>
 
-        <MediaQuery maxWidth={800}>
+        <MediaQuery maxWidth={1000}>
           <div ref={this.props.reference} className="education-container-small">
             <h1 className="education-header-small">Education</h1>
             <div className="education-photo-container-small">

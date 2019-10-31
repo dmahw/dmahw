@@ -12,7 +12,7 @@ class Home extends React.Component {
     render() {
         return (
             <div>
-                <MediaQuery minWidth={800}>
+                <MediaQuery minWidth={1000}>
                     <div className="hero-image">
                         <div className="hero-self">
                             <img className="hero-photo" src={profilePhoto} alt="Profile Photo"></img>
@@ -23,7 +23,7 @@ class Home extends React.Component {
                         </div>
                     </div> 
                 </MediaQuery>
-                <MediaQuery maxWidth={800}>
+                <MediaQuery maxWidth={1000}>
                     <div className="hero-image-small">
                         <div className="hero-self-small">
                             <img className="hero-photo-small" src={profilePhoto} alt="Profile Photo"></img>

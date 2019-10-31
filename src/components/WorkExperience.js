@@ -16,7 +16,7 @@ class WorkExperience extends React.Component {
     return (
       
       <div>
-        <MediaQuery minWidth={800}>
+        <MediaQuery minWidth={1000}>
           <div ref={this.props.reference} className="work-experience-background">
             <div className="work-experience-container">
               <h1 className="work-experience-header">Work Experience</h1>
@@ -97,7 +97,7 @@ class WorkExperience extends React.Component {
             </div>
           </div>
         </MediaQuery>
-        <MediaQuery maxWidth={800}>
+        <MediaQuery maxWidth={1000}>
           <div ref={this.props.reference} className="work-experience-background-small">
             <div className="work-experience-container-small">
               <h1 className="work-experience-header-small">Work Experience</h1>

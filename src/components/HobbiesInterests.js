@@ -11,7 +11,7 @@ class HobbiesInterests extends React.Component {
   render () {
     return (
       <div>
-        <MediaQuery minWidth={800}>
+        <MediaQuery minWidth={1000}>
           <div ref={this.props.reference} className="hobbies-interests-container">
             <h1 className="hobbies-interests-header">Hobbies & Interests</h1>
 
@@ -82,7 +82,7 @@ class HobbiesInterests extends React.Component {
 
           </div>
         </MediaQuery>
-        <MediaQuery maxWidth={800}>
+        <MediaQuery maxWidth={1000}>
           <div ref={this.props.reference} className="hobbies-interests-container-small">
             <h1 className="hobbies-interests-header-small">Hobbies & Interests</h1>
 

@@ -15,7 +15,7 @@ class PrimaryNavigationButton extends React.Component {
     document.addEventListener('scroll', () => {
       if (this.props.reference !== null && this.props.reference !== undefined) {
         if (this.props.reference.current !== null && this.props.reference !== undefined) {
-          const isTop = window.scrollY > this.props.reference.current.offsetTop - 450;
+          const isTop = window.scrollY > this.props.reference.current.offsetTop - 600;
           if (isTop !== this.props.isActive) {
             this.props.onClick(this.props.id, null)
           }
@@ -27,7 +27,7 @@ class PrimaryNavigationButton extends React.Component {
   render() {
     return (
       <div>
-        <MediaQuery minWidth={800}>
+        <MediaQuery minWidth={1000}>
           <button
             className={
               this.props.isActive ? "primary-navigation-button-active" : "primary-navigation-button"
@@ -37,7 +37,7 @@ class PrimaryNavigationButton extends React.Component {
             {this.props.name}
           </button>
         </MediaQuery>
-        <MediaQuery maxWidth={800}>
+        <MediaQuery maxWidth={1000}>
           <button
             className={
               this.props.isActive ? "primary-navigation-button-small-active" : "primary-navigation-small-button"
@@ -79,7 +79,7 @@ class PrimaryNavigationBar extends React.Component {
   render() {
     return (
       <div className="wrapper">
-        <MediaQuery minWidth={800}>
+        <MediaQuery minWidth={1000}>
           <div className="primary-nav-bar">
             <PrimaryNavigationButton
               isActive = {this.props.primaryNavigationBarSelection === 'home'}
@@ -133,7 +133,7 @@ class PrimaryNavigationBar extends React.Component {
           </div>
         </MediaQuery>
 
-        <MediaQuery maxWidth={800}>
+        <MediaQuery maxWidth={1000}>
           <div className="primary-nav-bar-small">
             { !this.state.menuOpen && 
               <button className="menu-logo" onClick={this.handleMenuClick}><img className="menu-logo-image" src={menuLogo} /></button>

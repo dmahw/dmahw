@@ -26,7 +26,9 @@ class App extends React.Component {
       primaryNavigationBarSelection: primaryNavigationBarSelectionId
     });
     if (reference !== null && reference !== undefined) {
-      window.scrollTo({top: (reference.current.offsetTop - 200), left: 0, behavior: "smooth"})
+      if (reference.current !== null && reference.current !== undefined) {
+        window.scrollTo({top: (reference.current.offsetTop - 100), left: 0, behavior: "smooth"})
+      }
     }
   }
 

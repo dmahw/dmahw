@@ -12,7 +12,7 @@ class AboutMe extends React.Component {
   render () {
     return (
       <div>
-        <MediaQuery minWidth={800}>
+        <MediaQuery minWidth={1000}>
           <div className="about-me-background">
             <div className="about-me-container">
               <div className="about-me-row">
@@ -29,7 +29,7 @@ class AboutMe extends React.Component {
             </div>
           </div>
         </MediaQuery>
-        <MediaQuery maxWidth={800}>
+        <MediaQuery maxWidth={1000}>
           <div className="about-me-container-small">
             <h1 ref={this.props.reference} className="about-me-header-small">About Me</h1>
             <div className="about-me-photo-container-small">
