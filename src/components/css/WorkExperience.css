@@ -9,50 +9,46 @@
 }
 
 .work-experience-header {
-  padding: 0 0 20px 0;
-  margin: 0 0 0 0;
+  padding: 0 0;
+  margin: 0 0;
   text-align: left;
   color: rgb(255, 255, 255);
 }
 
 .work-experience-heading-container {
-  padding: 25px 0 0 0;
-  margin: 0 0 0 0;
+  padding: 0 0;
+  margin: 0 0;
   display: flex;
 }
 
 /* Corvus Energy */
 .work-experience-row-1 {
   display: flex;
-  padding: 50px 0 0 25px;
-  margin: 0 0 0 0;
+  padding: 40px 0;
+  margin: 0;
   align-content: space-around;
 }
 
 .work-experience-words-1 {
-  padding: 20px 0 0 0;
-  margin: 0 0 0 0;
-  flex: 70%;
+  padding: 0;
+  margin: 0;
 }
 
 .work-experience-logo-1 {
-  flex: 20%;
-  max-height: 99px;
-  max-width: 99px;
+  height: 75px;
+  width: 75px;
   overflow: visible;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 400%;
+  background-size: 400px;
   background-image: url('./../../images/corvusLogo.svg');
 }
 
 .work-experience-heading-1 {
   padding: 0 0 0 5px;
-  margin: 0 0 0 0;
   margin: 0px;
   text-align: left;
   color: rgb(255, 255, 255);
-  flex: 80%;
 }
 
 .work-experience-subtitle-1 {
@@ -60,26 +56,24 @@
   margin: 0 0 0 0;
   text-align: left;
   color: rgb(255, 255, 255);
-  flex: 80%;
 }
 
 .work-experience-text-1 {
-  padding: 15px 0 0 40px;
-  margin: 0 0 0 0;
+  padding: 20px;
+  margin: 0 0;
   text-align: left;
   color: rgb(255, 255, 255);
   float: left;
 }
 
 .work-experience-image-1 {
-  padding: 0 0 0 65px;
+  padding: 0 0 0 0;
   margin: 0 0 0 0;
-  flex: 30%;
 }
 
 .work-experience-photo-1 {
-  padding: 0 0 0 0;
-  margin: 0 0 0 0;
+  padding: 0 0;
+  margin: 0 20px 20px 20px;
   height: 350px;
   width: 350px;
   overflow: visible;
@@ -93,21 +87,17 @@
 /* GE Digital */
 .work-experience-row-2 {
   display: flex;
-  padding: 150px 0 0 25px;
-  margin: 0 0 0 0;
+  padding: 40px 0;
+  margin: 0;
   align-content: space-around;
 }
-
 .work-experience-words-2 {
-  padding: 55px 0 0 0px;
-  margin: 0 0 0 0;
-  flex: 70%;
+  padding: 0;
+  margin: 0;
 }
-
 .work-experience-logo-2 {
-  flex: 20%;
-  max-height: 75px;
-  max-width: 75px;
+  height: 75px;
+  width: 75px;
   overflow: visible;
   background-repeat: no-repeat;
   background-position: center;
@@ -115,41 +105,32 @@
   border-radius: 50%;
   background-image: url('./../../images/geLogo.png');
 }
-
 .work-experience-heading-2 {
   padding: 0 0 0 15px;
-  margin: 0 0 0 0;
-  margin: 0px;
+  margin: 0;
   text-align: left;
   color: rgb(255, 255, 255);
-  flex: 80%;
 }
-
 .work-experience-subtitle-2 {
   padding: 0 0 0 15px;
-  margin: 0 0 0 0;
+  margin: 0;
   text-align: left;
   color: rgb(255, 255, 255);
-  flex: 80%;
 }
-
 .work-experience-text-2 {
-  padding: 15px 0 0 28px;
-  margin: 0 0 0 0;
+  padding: 20px;
+  margin: 0;
   text-align: left;
   color: rgb(255, 255, 255);
   float: left;
 }
-
 .work-experience-image-2 {
-  padding: 0 0 0 0px;
-  margin: 0 0 0 0;
-  flex: 30%;
+  padding: 0;
+  margin: 0;
 }
-
 .work-experience-photo-2 {
   padding: 0 0 0 0;
-  margin: 0 0 0 0;
+  margin: 0 20px 20px 20px;
   height: 350px;
   width: 350px;
   overflow: visible;
@@ -163,62 +144,50 @@
 /* Ridge Playhouse */
 .work-experience-row-3 {
   display: flex;
-  padding: 150px 0 0 25px;
+  padding: 40px 0;
   margin: 0 0 0 0;
   align-content: space-around;
 }
-
 .work-experience-words-3 {
-  padding: 20px 0 0 0;
-  margin: 0 0 0 0;
-  flex: 70%;
+  padding: 0;
+  margin: 0;
 }
-
 .work-experience-logo-3 {
-  flex: 20%;
-  max-height: 75px;
-  max-width: 75px;
+  height: 75px;
+  width: 75px;
   overflow: visible;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 75px 75px;
   background-image: url('./../../images/ridgeTheatrePlayhouseLogo.png');
 }
-
 .work-experience-heading-3 {
-  padding: 0 0 0 5px;
+  padding: 0 0 0 15px;
   margin: 0 0 0 0;
   margin: 0px;
   text-align: left;
   color: rgb(255, 255, 255);
-  flex: 80%;
 }
-
 .work-experience-subtitle-3 {
-  padding: 0 0 0 5px;
+  padding: 0 0 0 15px;
   margin: 0 0 0 0;
   text-align: left;
   color: rgb(255, 255, 255);
-  flex: 80%;
 }
-
 .work-experience-text-3 {
-  padding: 15px 0 0 25px;
+  padding: 20px;
   margin: 0 0 0 0;
   text-align: left;
   color: rgb(255, 255, 255);
   float: left;
 }
-
 .work-experience-image-3 {
-  padding: 0 0 0 65px;
-  margin: 0 0 0 0;
-  flex: 30%;
-}
-
-.work-experience-photo-3 {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
+}
+.work-experience-photo-3 {
+  padding: 0 0 0 0;
+  margin: 0 20px 20px 20px;
   height: 350px;
   width: 350px;
   overflow: visible;
@@ -232,21 +201,17 @@
 /* Beach House */
 .work-experience-row-4 {
   display: flex;
-  padding: 150px 0 0 25px;
+  padding: 40px;
   margin: 0 0 0 0;
   align-content: space-around;
 }
-
 .work-experience-words-4 {
-  padding: 55px 0 0 0px;
+  padding: 0;
   margin: 0 0 0 0;
-  flex: 70%;
 }
-
 .work-experience-logo-4 {
-  flex: 20%;
-  max-height: 75px;
-  max-width: 75px;
+  height: 75px;
+  width: 75px;
   overflow: visible;
   background-repeat: no-repeat;
   background-position: center;
@@ -254,41 +219,33 @@
   border-radius: 50%;
   background-image: url('./../../images/beachhouseLogo.PNG');
 }
-
 .work-experience-heading-4 {
   padding: 0 0 0 15px;
   margin: 0 0 0 0;
   margin: 0px;
   text-align: left;
   color: rgb(255, 255, 255);
-  flex: 80%;
 }
-
 .work-experience-subtitle-4 {
   padding: 0 0 0 15px;
   margin: 0 0 0 0;
   text-align: left;
   color: rgb(255, 255, 255);
-  flex: 80%;
 }
-
 .work-experience-text-4 {
-  padding: 15px 0 0 28px;
+  padding: 20px;
   margin: 0 0 0 0;
   text-align: left;
   color: rgb(255, 255, 255);
   float: left;
 }
-
 .work-experience-image-4 {
   padding: 0 0 0 0px;
   margin: 0 0 0 0;
-  flex: 30%;
 }
-
 .work-experience-photo-4 {
   padding: 0 0 0 0;
-  margin: 0 0 0 0;
+  margin: 0 20px 20px 20px;
   height: 350px;
   width: 350px;
   overflow: visible;
