@@ -25,7 +25,8 @@
 }
 
 .hobbies-interests-point-1-small {
-  flex: 25%;
+  width: 200px;
+  height: 200px;
   padding: 0;
   margin: 20px;
   text-align: center;
@@ -51,7 +52,8 @@
 }
 
 .hobbies-interests-point-2-small {
-  flex: 25%;
+  width: 200px;
+  height: 200px;
   padding: 0;
   margin: 20px;
   text-align: center;
@@ -77,7 +79,8 @@
 }
 
 .hobbies-interests-point-3-small {
-  flex: 25%;
+  width: 200px;
+  height: 200px;
   padding: 0;
   margin: 20px;
   text-align: center;
@@ -103,7 +106,8 @@
 }
 
 .hobbies-interests-point-4-small {
-  flex: 25%;
+  width: 200px;
+  height: 200px;
   padding: 0;
   margin: 20px;
   text-align: center;
@@ -129,7 +133,8 @@
 }
 
 .hobbies-interests-point-5-small {
-  flex: 25%;
+  width: 200px;
+  height: 200px;
   padding: 0;
   margin: 20px;
   text-align: center;
@@ -155,7 +160,8 @@
 }
 
 .hobbies-interests-point-6-small {
-  flex: 25%;
+  width: 200px;
+  height: 200px;
   padding: 0;
   margin: 20px;
   text-align: center;
@@ -181,7 +187,8 @@
 }
 
 .hobbies-interests-point-7-small {
-  flex: 25%;
+  width: 200px;
+  height: 200px;
   padding: 0;
   margin: 20px;
   text-align: center;
@@ -207,7 +214,8 @@
 }
 
 .hobbies-interests-point-8-small {
-  flex: 25%;
+  width: 200px;
+  height: 200px;
   padding: 0;
   margin: 20px;
   text-align: center;
@@ -233,7 +241,8 @@
 }
 
 .hobbies-interests-point-9-small {
-  flex: 25%;
+  width: 200px;
+  height: 200px;
   padding: 0;
   margin: 20px;
   text-align: center;

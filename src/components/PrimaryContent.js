@@ -4,15 +4,10 @@ import AboutMe from './AboutMe';
 import Education from './Education';
 import WorkExperience from './WorkExperience';
 import HobbiesInterests from './HobbiesInterests';
-
-import Projects from './Projects';
+// import Projects from './Projects';
 import Contact from './Contact';
 
 class PrimaryContent extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render () {
     return (
       <div>

@@ -18,6 +18,7 @@ p {
 button {
   font-family: "Calibri";
   font-size: 19px;
+  outline: none;
 }
 
 i {

@@ -5,17 +5,13 @@ import profilePhoto from './../images/profilePhoto.PNG'
 import MediaQuery from 'react-responsive'
 
 class Home extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div>
                 <MediaQuery minWidth={1000}>
                     <div className="hero-image">
                         <div className="hero-self">
-                            <img className="hero-photo" src={profilePhoto} alt="Profile Photo"></img>
+                            <img className="hero-photo" src={profilePhoto} alt=""></img>
                             <div className="hero-text">
                                 <h1 ref={this.props.reference} className="hero-name">David Mah</h1>
                                 <p className="hero-subtitle">Software Developer | Engineer</p>
@@ -26,7 +22,7 @@ class Home extends React.Component {
                 <MediaQuery maxWidth={1000}>
                     <div className="hero-image-small">
                         <div className="hero-self-small">
-                            <img className="hero-photo-small" src={profilePhoto} alt="Profile Photo"></img>
+                            <img className="hero-photo-small" src={profilePhoto} alt=""></img>
                             <div className="hero-text-small">
                                 <h1 ref={this.props.reference} className="hero-name-small">David Mah</h1>
                                 <p className="hero-subtitle-small">Software Developer<br />Engineer</p>

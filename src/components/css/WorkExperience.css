@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./../../images/wood.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('./../../images/wood.jpg');
 }
 
 .work-experience-header {
@@ -35,8 +35,10 @@
 }
 
 .work-experience-logo-1 {
-  height: 75px;
-  width: 75px;
+  min-height: 75px;
+  min-width: 75px;
+  max-height: 75px;
+  max-width: 75px;
   overflow: visible;
   background-repeat: no-repeat;
   background-position: center;
@@ -96,12 +98,14 @@
   margin: 0;
 }
 .work-experience-logo-2 {
-  height: 75px;
-  width: 75px;
+  min-height: 75px;
+  min-width: 75px;
+  max-height: 75px;
+  max-width: 75px;
   overflow: visible;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: 85px;
   border-radius: 50%;
   background-image: url('./../../images/geLogo.png');
 }
@@ -153,8 +157,10 @@
   margin: 0;
 }
 .work-experience-logo-3 {
-  height: 75px;
-  width: 75px;
+  min-height: 75px;
+  min-width: 75px;
+  max-height: 75px;
+  max-width: 75px;
   overflow: visible;
   background-repeat: no-repeat;
   background-position: center;
@@ -210,8 +216,10 @@
   margin: 0 0 0 0;
 }
 .work-experience-logo-4 {
-  height: 75px;
-  width: 75px;
+  min-height: 75px;
+  min-width: 75px;
+  max-height: 75px;
+  max-width: 75px;
   overflow: visible;
   background-repeat: no-repeat;
   background-position: center;

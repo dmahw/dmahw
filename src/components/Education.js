@@ -4,10 +4,6 @@ import './css/EducationSmall.css';
 import MediaQuery from 'react-responsive'
 
 class Education extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render () {
     return (
       <div>
@@ -51,7 +47,7 @@ class Education extends React.Component {
           <div ref={this.props.reference} className="education-container-small">
             <h1 className="education-header-small">Education</h1>
             <div className="education-photo-container-small">
-              <img className="education-photo-small"></img>
+              <img className="education-photo-small" alt=""></img>
             </div>
             <div className="education-info-small">
               <p className="education-text-small">

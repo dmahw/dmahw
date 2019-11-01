@@ -1,6 +1,6 @@
 .hobbies-interests-container {
   position: relative;
-  padding: 65px 65px 65px 65px;
+  padding: 65px;
   margin: 0 0 0 0;
   height: 100%;
   background-size: 100%;
@@ -20,31 +20,31 @@
   margin: 0 0 0 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .hobbies-interests-point-1 {
-  flex: 30%;
-  padding: 50px 0 50px 30px;
+  width: 350px;
+  height: 125px;
+  padding: 20px;
   margin: 0 0 0 0;
   display: flex;
 }
 
 .hobbies-interests-text-1 {
-  flex: 60%;
   text-align: left;
-  padding: 10px 0 0 25px;
+  padding: 10px;
   margin: 0 0 0 0;
   color: white;
+  line-height: 125px;
 }
 
 .hobbies-interests-photo-1 {
-  flex: 40%;
   padding: 0 0 0 0px;
   margin: 0 0 0 0px;
-  max-height: 125px;
-  max-width: 125px;
-  height: 125px;
-  width: 125px;
+  min-height: 125px;
+  min-width: 125px;
   overflow: visible;
   background-repeat: no-repeat;
   background-position: center top;
@@ -53,28 +53,26 @@
   border-radius: 50%;
 }
 .hobbies-interests-point-2 {
-  flex: 30%;
-  padding: 50px 0 50px 30px;
+  width: 350px;
+  height: 125px;
+  padding: 20px;
   margin: 0 0 0 0;
   display: flex;
 }
 
 .hobbies-interests-text-2 {
-  flex: 60%;
   text-align: left;
-  padding: 10px 0 0 25px;
+  padding: 10px;
   margin: 0 0 0 0;
   color: white;
+  line-height: 125px;
 }
 
 .hobbies-interests-photo-2 {
-  flex: 40%;
   padding: 0 0 0 0px;
   margin: 0 0 0 0px;
-  max-height: 125px;
-  max-width: 125px;
-  height: 125px;
-  width: 125px;
+  min-height: 125px;
+  min-width: 125px;
   overflow: visible;
   background-repeat: no-repeat;
   background-position: center top;
@@ -84,28 +82,26 @@
 }
 
 .hobbies-interests-point-3 {
-  flex: 30%;
-  padding: 50px 0 50px 30px;
+  width: 350px;
+  height: 125px;
+  padding: 20px;
   margin: 0 0 0 0;
   display: flex;
 }
 
 .hobbies-interests-text-3 {
-  flex: 60%;
   text-align: left;
-  padding: 10px 0 0 25px;
+  padding: 10px;
   margin: 0 0 0 0;
   color: white;
+  line-height: 125px;
 }
 
 .hobbies-interests-photo-3 {
-  flex: 40%;
   padding: 0 0 0 0px;
   margin: 0 0 0 0px;
-  max-height: 125px;
-  max-width: 125px;
-  height: 125px;
-  width: 125px;
+  min-height: 125px;
+  min-width: 125px;
   overflow: visible;
   background-repeat: no-repeat;
   background-position: center top;
@@ -115,28 +111,26 @@
 }
 
 .hobbies-interests-point-4 {
-  flex: 30%;
-  padding: 50px 0 50px 30px;
+  width: 350px;
+  height: 125px;
+  padding: 20px;
   margin: 0 0 0 0;
   display: flex;
 }
 
 .hobbies-interests-text-4 {
-  flex: 60%;
   text-align: left;
-  padding: 10px 0 0 25px;
+  padding: 10px;
   margin: 0 0 0 0;
   color: white;
+  line-height: 125px;
 }
 
 .hobbies-interests-photo-4 {
-  flex: 40%;
   padding: 0 0 0 0px;
   margin: 0 0 0 0px;
-  max-height: 125px;
-  max-width: 125px;
-  height: 125px;
-  width: 125px;
+  min-height: 125px;
+  min-width: 125px;
   overflow: visible;
   background-repeat: no-repeat;
   background-position: center top;
@@ -146,28 +140,26 @@
 }
 
 .hobbies-interests-point-5 {
-  flex: 30%;
-  padding: 50px 0 50px 30px;
+  width: 350px;
+  height: 125px;
+  padding: 20px;
   margin: 0 0 0 0;
   display: flex;
 }
 
 .hobbies-interests-text-5 {
-  flex: 60%;
   text-align: left;
-  padding: 10px 0 0 25px;
+  padding: 10px;
   margin: 0 0 0 0;
   color: white;
+  line-height: 125px;
 }
 
 .hobbies-interests-photo-5 {
-  flex: 40%;
   padding: 0 0 0 0px;
   margin: 0 0 0 0px;
-  max-height: 125px;
-  max-width: 125px;
-  height: 125px;
-  width: 125px;
+  min-height: 125px;
+  min-width: 125px;
   overflow: visible;
   background-repeat: no-repeat;
   background-position: center top;
@@ -177,28 +169,26 @@
 }
 
 .hobbies-interests-point-6 {
-  flex: 30%;
-  padding: 50px 0 50px 30px;
+  width: 350px;
+  height: 125px;
+  padding: 20px;
   margin: 0 0 0 0;
   display: flex;
+  line-height: 125px;
 }
 
 .hobbies-interests-text-6 {
-  flex: 60%;
   text-align: left;
-  padding: 10px 0 0 25px;
+  padding: 10px;
   margin: 0 0 0 0;
   color: white;
 }
 
 .hobbies-interests-photo-6 {
-  flex: 40%;
   padding: 0 0 0 0px;
   margin: 0 0 0 0px;
-  max-height: 125px;
-  max-width: 125px;
-  height: 125px;
-  width: 125px;
+  min-height: 125px;
+  min-width: 125px;
   overflow: visible;
   background-repeat: no-repeat;
   background-position: center top;
@@ -208,28 +198,26 @@
 }
 
 .hobbies-interests-point-7 {
-  flex: 30%;
-  padding: 50px 0 50px 30px;
+  width: 350px;
+  height: 125px;
+  padding: 20px;
   margin: 0 0 0 0;
   display: flex;
 }
 
 .hobbies-interests-text-7 {
-  flex: 60%;
   text-align: left;
-  padding: 10px 0 0 25px;
+  padding: 10px;
   margin: 0 0 0 0;
   color: white;
+  line-height: 125px;
 }
 
 .hobbies-interests-photo-7 {
-  flex: 40%;
   padding: 0 0 0 0px;
   margin: 0 0 0 0px;
-  max-height: 125px;
-  max-width: 125px;
-  height: 125px;
-  width: 125px;
+  min-height: 125px;
+  min-width: 125px;
   overflow: visible;
   background-repeat: no-repeat;
   background-position: center top;
@@ -239,28 +227,26 @@
 }
 
 .hobbies-interests-point-8 {
-  flex: 30%;
-  padding: 50px 0 50px 30px;
-  margin: 0 0 0 0;
+  width: 350px;
+  height: 125px;
+  padding: 20px;
+  margin: 0;
   display: flex;
 }
 
 .hobbies-interests-text-8 {
-  flex: 60%;
   text-align: left;
-  padding: 10px 0 0 25px;
+  padding: 10px;
   margin: 0 0 0 0;
   color: white;
+  line-height: 125px;
 }
 
 .hobbies-interests-photo-8 {
-  flex: 40%;
   padding: 0 0 0 0px;
   margin: 0 0 0 0px;
-  max-height: 125px;
-  max-width: 125px;
-  height: 125px;
-  width: 125px;
+  min-height: 125px;
+  min-width: 125px;
   overflow: visible;
   background-repeat: no-repeat;
   background-position: center top;
@@ -270,28 +256,26 @@
 }
 
 .hobbies-interests-point-9 {
-  flex: 30%;
-  padding: 50px 0 50px 30px;
-  margin: 0 0 0 0;
+  width: 350px;
+  height: 125px;
+  padding: 20px;
+  margin: 0;
   display: flex;
 }
 
 .hobbies-interests-text-9 {
-  flex: 60%;
   text-align: left;
-  padding: 10px 0 0 25px;
+  padding: 10px;
   margin: 0 0 0 0;
   color: white;
+  line-height: 125px;
 }
 
 .hobbies-interests-photo-9 {
-  flex: 40%;
   padding: 0 0 0 0px;
   margin: 0 0 0 0px;
-  max-height: 125px;
-  max-width: 125px;
-  height: 125px;
-  width: 125px;
+  min-height: 125px;
+  min-width: 125px;
   overflow: visible;
   background-repeat: no-repeat;
   background-position: center top;

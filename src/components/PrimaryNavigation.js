@@ -7,15 +7,11 @@ import closeMenuLogo from './../images/chevron_left-24px.svg'
 
 
 class PrimaryNavigationButton extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
     document.addEventListener('scroll', () => {
       if (this.props.reference !== null && this.props.reference !== undefined) {
         if (this.props.reference.current !== null && this.props.reference !== undefined) {
-          const isTop = window.scrollY > this.props.reference.current.offsetTop - 600;
+          const isTop = window.scrollY > this.props.reference.current.offsetTop - 450;
           if (isTop !== this.props.isActive) {
             this.props.onClick(this.props.id, null)
           }
@@ -136,10 +132,10 @@ class PrimaryNavigationBar extends React.Component {
         <MediaQuery maxWidth={1000}>
           <div className="primary-nav-bar-small">
             { !this.state.menuOpen && 
-              <button className="menu-logo" onClick={this.handleMenuClick}><img className="menu-logo-image" src={menuLogo} /></button>
+              <button className="menu-logo" onClick={this.handleMenuClick}><img className="menu-logo-image" src={menuLogo} alt="" /></button>
             }
             { this.state.menuOpen && 
-              <button className="menu-logo" onClick={this.handleMenuClick}><img className="menu-logo-image" src={closeMenuLogo} /></button>
+              <button className="menu-logo" onClick={this.handleMenuClick}><img className="menu-logo-image" src={closeMenuLogo} alt="" /></button>
             }
             <div className="sidebar-small">
               <PrimaryNavigationButton
